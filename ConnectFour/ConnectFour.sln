@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour", "ConnectFour.csproj", "{38E2B1E6-4948-472B-BAB3-7F0D3B22B9B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFourXunit", "..\ConnectFourXunit\ConnectFourXunit.csproj", "{DFFBF81B-3DF4-40A4-823E-27B23F67183F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E2B1E6-4948-472B-BAB3-7F0D3B22B9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E2B1E6-4948-472B-BAB3-7F0D3B22B9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E2B1E6-4948-472B-BAB3-7F0D3B22B9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E2B1E6-4948-472B-BAB3-7F0D3B22B9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFBF81B-3DF4-40A4-823E-27B23F67183F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFBF81B-3DF4-40A4-823E-27B23F67183F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFBF81B-3DF4-40A4-823E-27B23F67183F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFBF81B-3DF4-40A4-823E-27B23F67183F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1114772C-4DD1-4560-9049-39C5A8398549}
+	EndGlobalSection
+EndGlobal
