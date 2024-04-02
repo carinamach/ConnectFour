@@ -2,9 +2,9 @@
 <HeadContent>
     <style>
         :root {
-            --board-bg: @BoardColor; /* Använd parametern för brädfärg */
-            --player1: @Player1Color; /* Använd parametern för färgen för spelare 1 */
-            --player2: @Player2Color; /* Använd parametern för färgen för spelare 2 */
+            --board-bg: @BoardColor; 
+            --player1: @Player1Color;
+            --player2: @Player2Color;
         }
     </style>
 </HeadContent>
@@ -36,9 +36,16 @@
 </div>
 
 @code {
+    //Uppgift: gör om root fägerna till parametrar
+    private string BoardColor = "black"; // Default board color: black
+    private string Player1Color = "green"; // Default color - player 1: green
+    private string Player2Color = "purple"; // Default color -  player 2: purple
+
+
     private string[] pieces = new string[42];
     private string winnerMessage = string.Empty; 
     private string errorMessage = string.Empty;
+
 
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
@@ -79,9 +86,6 @@
         State.ResetBoard();
     }
 
-    //Uppgift gör om root fägerna till parametrar
-     private string BoardColor    = "#5e239d"; // Default board color: lila
-     private string Player1Color  = "#00f0b5"; // Default color - player 1: green
-     private string Player2Color  = "#f61067"; // Default color -  player 2: rosa
+   
 
 }
